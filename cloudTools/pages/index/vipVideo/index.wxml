@@ -1,0 +1,33 @@
+<view class="page" xmlns:wx="http://www.w3.org/1999/xhtml">
+    <!--<view class="page__hd">
+        <view class="page__title">Input</view>
+        <view class="page__desc">表单输入</view>
+    </view>-->
+    <view class="page__bd">
+        <view class="weui-toptips weui-toptips_warn" wx:if="{{showTopTips}}">错误提示</view>
+
+        <view class="weui-cells__title">欲播放的VIP视频URL</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell">
+                <view class="weui-cell__bd">
+                    <textarea bindinput='bindChangeUrl' value='{{url}}' class="weui-textarea" placeholder="请将VIP视频播放URL地址粘贴到这里后点击地址解析" style="height: 6.3em" />
+                </view>
+            </view>
+        </view>
+
+        <view class="weui-btn-area">
+            <button class="weui-btn" type="primary" bindtap="goVideoPlay">播放</button>
+            <button class="weui-btn" type="primary" bindtap="changeUrl">地址解析并复制到剪切板</button>
+        </view>
+        <view class="weui-cells__title">说明：<text style='color:red;'>请将转换后的播放地址内容粘贴到系统浏览器地址栏中打开播放</text></view>
+        <!--
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell">
+                <view class="weui-cell__bd">
+                    <textarea value='{{changeUrl}}' class="weui-textarea" placeholder="请输入VIP视频播放URL地址" style="height: 6.3em" />
+                </view>
+            </view>
+        </view>
+        -->
+    </view>
+</view>

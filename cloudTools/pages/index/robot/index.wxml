@@ -1,0 +1,20 @@
+<!--pages/index/robot/index.wxml-->
+<scroll-view>
+  <view class='messageView'>
+    <image class='icon-img' src='../../../utils/content/girl.png'></image>
+    <text></text>
+  </view> 
+
+  <view class='bottom'>
+    <view class='leftDiv'>
+      <image class='changeIconImg' bindtap='changeFunction' src='{{changeIconImg}}'></image>
+    </view>
+    <view class='rightDiv'>
+      <view class='contentText inputDiv' style='{{display_text}}width:100%;'>
+      <textarea auto-focus='true' bindinput='changeTextAreaValue' auto-height="true" style='float:left;width:75%;' placeholder='请输入你想探索的内容' value='{{textContent}}'></textarea>
+      <button type='primary' size='default' bindtap='sendText' style='float:left;height:40px;'>发送</button>
+      </view>
+      <button class="voicBtn inputDiv" style='{{display_voicBtn}};' type="default">按住说话</button>
+    </view>
+  </view>
+</scroll-view>

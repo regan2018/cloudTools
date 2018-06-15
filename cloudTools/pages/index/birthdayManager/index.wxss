@@ -1,0 +1,15 @@
+/* pages/index/birthdayManager/index.wxss */
+@import "../../../utils/style.wxss";
+.search{position:fixed;top:0px;height: 30px;width:100%;background-color: #fff;z-index: 10;}
+.dataList{display: block;margin-top: 20px;}
+text{font-size: 15px;}
+.info{width: 100%;display: block;height: 60px;padding-top: 12px;border-bottom: 1px solid silver;}
+.info image{float: left;width:50px;}
+.info .left{float: left;margin-left: 12px;}
+.info .right{float: right;}
+.info .right .day{font-size: 20px;}
+.info .right .distance{display: block;font-size: 10px;}
+.name{color: cornflowerblue;}
+.birthday{color:sandybrown;display: block;font-size: 10px;}
+
+.add{width:40px;height: 40px;text-align: center;line-height: 40px;font-weight: bold;background-color:coral;color: #fff; padding: 0px;position: fixed;bottom: 10px;right: 10px;}

@@ -1,0 +1,55 @@
+<!--pages/index/birthdayManager/index.wxml-->
+<view class='page'>
+  <view class='search'>
+    <input type='text' confirm-type='search' placeholder='输入关键字搜索'/>
+  </view>
+  <scroll-view class='dataList' bindtap='dataList' scroll-y='true' scroll-with-animation='true'>
+    <view class='info' bindtap='info'>
+      <image class='headImg' src='../../../utils/content/girl.png'></image>
+      <view class='left'>
+        <text class='name'>姓名</text>
+        <text class='birthday'>三月初五</text>
+      </view>
+      <view class='right'>
+      <text class='day'>30天</text>
+      <text class='distance'>距30岁生日</text>
+      </view>
+    </view>
+     <view class='info' bindtap='info'>
+      <image class='headImg' src='../../../utils/content/girl.png'></image>
+      <view class='left'>
+        <text class='name'>姓名</text>
+        <text class='birthday'>三月初五</text>
+      </view>
+      <view class='right'>
+      <text class='day'>30天</text>
+      <text class='distance'>距30岁生日</text>
+      </view>
+    </view>
+     <view class='info' bindtap='info' ss="1">
+      <image class='headImg' src='../../../utils/content/girl.png'></image>
+      <view class='left'>
+        <text class='name'>姓名</text>
+        <text class='birthday'>三月初五</text>
+      </view>
+      <view class='right'>
+      <text class='day'>30天</text>
+      <text class='distance'>距30岁生日</text>
+      </view>
+    </view>
+     <view class='info' bindtap='info' ss="2">
+      <image class='headImg' src='../../../utils/content/girl.png'></image>
+      <view class='left'>
+        <text class='name'>姓名</text>
+        <text class='birthday'>三月初五</text>
+      </view>
+      <view class='right'>
+      <text class='day'>30天</text>
+      <text class='distance'>距30岁生日</text>
+      </view>
+    </view>
+  </scroll-view>
+  <view>
+    <button class='add' bindtap='add'>+</button>
+  </view>
+</view>

@@ -1,0 +1,3 @@
+<!--pages/index/vipVideo/video-play.wxml-->
+<!--<web-view class='webView' src="{{url}}"></web-view>-->
+<video src='{{url}}' autoplay='true' style='width:100%;'></video>

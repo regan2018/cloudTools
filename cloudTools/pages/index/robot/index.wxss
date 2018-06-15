@@ -1,0 +1,11 @@
+/* pages/index/robot/index.wxss */
+.icon-img{width: 50px;height: 50px;}
+.messageView{padding: 12px;}
+
+.bottom{position:fixed;bottom: 0px;left: 0px;width: 100%;height: 60px;background-color: #EDECE8;}
+.bottom .leftDiv{width: 20%;height: 100%;float: left;text-align: center;line-height: 60px;}
+.bottom .rightDiv{width: 80%;height:100%;float: right;line-height: 60px;}
+.bottom .changeIconImg{width: 40px;height: 40px;margin-top:10px;}
+.bottom .inputDiv{width: 90%;height:40px;margin-top:10px;background-color: white;}
+.contentText{}
+.voicBtn{}

@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/index/birthdayManager/index",
+    "pages/index/humanAccountBill/index",
+    "pages/index/robot/index",
+    "pages/index/vipVideo/index",
+    "pages/index/vipVideo/video-play"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "云端工具",
+    "navigationBarTextStyle": "black"
+  },
+  "plugins": {
+    "WeChatAI": {
+      "version": "0.0.6",
+      "provider": "wx069ba97219f66d99"
+    }
+  }
+}
